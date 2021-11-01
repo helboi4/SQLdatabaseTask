@@ -26,7 +26,7 @@ createdb football
 We can then use the CLI to run an SQL file and target a specific database with it. Navigate to the folder with the `football_data.sql` file in it and run the command:
 
 ```sh
-psql -d football -f football_data.sql
+****psql -d football -f football_data.sql****
 ```
 
 This will execute the code in `football_data.sql` with any tables being created in the `football` database. If everything has worked you should now be able to query the database and see all the data there.
